@@ -1,8 +1,17 @@
-import "./style.css";
+// Задача 1. Типізація скалярних значень (файл task-1.ts)
 
-let age: number = "Jacob";
-// ❌ Error: Type 'string' is not assignable to type 'number'
-console.log(age);
+// У цьому фрагменті коду оголошені три змінні з різними типами значень: текст, число і булеве значення.
 
-age = true;
-// ❌ Error: Type 'boolean' is not assignable to type 'number'
+// const name = "Alice";
+// const age = 30;
+// const isOnline = true;
+
+// console.log(`Name: ${name}`);
+// console.log(`Age: ${age}`);
+// console.log(`Online: ${isOnline}`);
+
+// Завдання:
+
+// Додай до кожної змінної явну типізацію.
+// Переконайся, що TypeScript правильно визначає тип, і не видає помилку.
+// Залиш назви змінних і їх значення без змін.
