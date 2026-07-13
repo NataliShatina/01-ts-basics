@@ -3,12 +3,15 @@
 // У цьому фрагменті коду оголошені три змінні з різними типами значень: текст, число і булеве значення.
 
 // const name = "Alice";
+const name: string = "Alice";
 // const age = 30;
+const age: number = 30;
 // const isOnline = true;
+const isOnline: boolean = true;
 
-// console.log(`Name: ${name}`);
-// console.log(`Age: ${age}`);
-// console.log(`Online: ${isOnline}`);
+console.log(`Name: ${name}`);
+console.log(`Age: ${age}`);
+console.log(`Online: ${isOnline}`);
 
 // Завдання:
 
