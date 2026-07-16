@@ -2,15 +2,15 @@
 
 // Функція getMessage повертає проміс, який через затримку повертає рядок.
 
-// function getMessage() {
-//   return new Promise((resolve) => {
-//     setTimeout(() => {
-//       resolve("Hello from TS");
-//     }, 1000);
-//   });
-// }
+const getMessage = (): Promise<string> => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve("Hello from TS");
+    }, 1000);
+  });
+};
 
-// getMessage().then(result => console.log(result));
+getMessage().then((result) => console.log(result));
 
 // Завдання:
 
